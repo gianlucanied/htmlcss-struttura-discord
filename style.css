@@ -35,14 +35,14 @@ header{
     text-align: end;
 }
 
-.first-section{
+.container-blue{
     background-color: blue;
     height: 500px;
     display: flex;
     justify-content: center;
 }
 
-.first-block-inside{
+.block-pink{
     background-color: pink;
     margin: 85px;
     height: 300px;
@@ -50,14 +50,14 @@ header{
     border: dotted;
 }
 
-.second-fourth-section{
+.container-white{
     display: flex;
     background-color: white;
     height: 500px;
     justify-content: center;
 }
 
-.first-block-inside-second{
+.block-blue{
     height: 300px;
     margin: 85px 0;
     width: 450px;
@@ -65,45 +65,45 @@ header{
     border: dotted;
 }
 
-.second-block-inside-second{
+.block-red{
     height: 300px;
     margin: 85px 0;
     width: 300px;
-    background-color: pink;
+    background-color: red;
     border: dotted;
 }
 
-.third-section{
+.container-grey{
     display: flex;
     background-color: grey;
     height: 500px;
     justify-content: center;
 }
 
-.first-block-third{
+.block-orange{
     height: 300px;
     margin: 85px 0;
     width: 300px;
-    background-color: pink;
+    background-color: orange;
     border: dotted;
 }
 
-.second-block-third{
+.block-aqua{
     height: 300px;
     margin: 85px 0;
     width: 450px;
-    background-color: blue;
+    background-color: aqua;
     border: dotted;
 }
 
-.fifth-section{
+.container-grey-big{
     display: flex;
     background-color: grey;
     height: 600px;
     justify-content: center;
 }
 
-.big-block{
+.green-block{
     margin: 90px 0;
     background-color: green;
     width: 750px;
@@ -111,7 +111,7 @@ header{
     border: dotted;
 }
 
-.sixth-section{
+.container-black{
     display: flex;
     height: 400px;
     justify-content: center;
@@ -142,7 +142,7 @@ header{
     padding: 3px;
 }
 
-.block-in-footer{
+.container-footer{
     background-color: green;
     width: 775px;
     justify-content: space-between;
