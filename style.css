@@ -1,3 +1,4 @@
+
 header{
     display: flex;
 }
@@ -13,11 +14,11 @@ header{
     justify-content: space-between;
 }
 
-#left-header{
+.left-header{
     width: 100px;
 }
 
-#center-header{
+.center-header{
     width: 500px;
     justify-content: center;
     text-align: center;
@@ -26,19 +27,19 @@ header{
     border-right: dotted;
 }
 
-#right-header{
+.right-header{
     width: 100px;
     text-align: end;
 }
 
-.first-block{
+.first-section{
     background-color: blue;
     height: 500px;
     display: flex;
     justify-content: center;
 }
 
-#first-block-inside{
+.first-block-inside{
     background-color: pink;
     margin: 85px;
     height: 300px;
@@ -46,7 +47,7 @@ header{
     border: dotted;
 }
 
-.second-fourth-block{
+.second-fourth-section{
     display: flex;
     background-color: white;
     height: 500px;
@@ -69,14 +70,14 @@ header{
     border: dotted;
 }
 
-#third-block{
+.third-section{
     display: flex;
     background-color: grey;
     height: 500px;
     justify-content: center;
 }
 
-#first-block-third{
+.first-block-third{
     height: 300px;
     margin: 85px 0;
     width: 300px;
@@ -84,7 +85,7 @@ header{
     border: dotted;
 }
 
-#second-block-third{
+.second-block-third{
     height: 300px;
     margin: 85px 0;
     width: 450px;
@@ -92,14 +93,14 @@ header{
     border: dotted;
 }
 
-#fifth-block{
+.fifth-section{
     display: flex;
     background-color: grey;
     height: 600px;
     justify-content: center;
 }
 
-#big-block{
+.big-block{
     margin: 90px 0;
     background-color: green;
     width: 750px;
@@ -107,14 +108,14 @@ header{
     border: dotted;
 }
 
-#last-block{
+.sixth-section{
     display: flex;
     height: 400px;
     justify-content: center;
     background-color: black;
 }
 
-#large-block{
+.large-block{
     margin-top: 5px;
     height: 350px;
     width: 250px;
@@ -130,7 +131,7 @@ header{
     border: dotted;
 }
 
-.footer-block{
+.footer{
     background-color: black;
     display: flex;
     justify-content: center;
@@ -145,7 +146,7 @@ header{
     display: flex;
 }
 
-#logo{
+.logo{
     width: 70px;
     background-color: red;
     height: 25px;
@@ -153,7 +154,7 @@ header{
     margin-top: 12px;
 }
 
-#bottone{
+.bottone{
     width: 70px;
     background-color: red;
     height: 25px;
