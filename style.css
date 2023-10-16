@@ -1,0 +1,40 @@
+body{
+    display: flex;
+
+}
+
+.container-header {
+    background-color: yellow;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex: auto;
+    border: dotted;
+    padding: 7px;
+    margin: 0 20%;
+
+
+}
+
+#left-header{
+    width: 100px;
+    border-right: dotted;
+}
+
+#center-header{
+    width: 200px;
+    border-right: dotted;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#right-header{
+    width: 100px;
+    text-align: end;
+}
+
+.first-block{
+    background-color: blue;
+    
+}
